@@ -32,23 +32,3 @@ async function checkWeather(city){
 navBtn.addEventListener("click", () => {
     checkWeather(navInp.value);
 });
-
-if (weatherIcon.src == "imgs/clear.png"); {
-    neonColor.style.background = "conic-gradient(from var(--angle), transparent 70%, rgb(255, 255, 255), rgb(31, 31, 31))";
-} elseif (weatherIcon.src == "imgs/clouds.png"); {
-    neonColor.style.background = "conic-gradient(from var(--angle), transparent 70%, rgb(5, 255, 0), rgb(31, 31, 0))";
-} elseif (weatherIcon.src == "imgs/rain.png"); {
-    neonColor.style.background = "conic-gradient(from var(--angle), transparent 70%, rgb(255, 255, 255), rgb(31, 31, 31))";
-} elseif (weatherIcon.src == "imgs/snow.png"); {
-    neonColor.style.background = "conic-gradient(from var(--angle), transparent 70%, rgb(255, 255, 255), rgb(31, 31, 31))";
-} elseif (weatherIcon.src == "imgs/thunderstorm.png"); {
-    neonColor.style.background = "conic-gradient(from var(--angle), transparent 70%, rgb(255, 255, 255), rgb(31, 31, 31))";
-} elseif (weatherIcon.src == "imgs/wind.png"); {
-    neonColor.style.background = "conic-gradient(from var(--angle), transparent 70%, rgb(255, 255, 255), rgb(31, 31, 31))";
-} elseif (weatherIcon.src == "imgs/mist.png"); {
-    neonColor.style.background = "conic-gradient(from var(--angle), transparent 70%, rgb(255, 255, 255), rgb(31, 31, 31))";
-} elseif (weatherIcon.src == "imgs/haze.png"); {
-    neonColor.style.background = "conic-gradient(from var(--angle), transparent 70%, rgb(255, 255, 255), rgb(31, 31, 31))";
-} elseif (weatherIcon.src == "imgs/drizzle.png"); {
-    neonColor.style.background = "conic-gradient(from var(--angle), transparent 70%, rgb(255, 255, 255), rgb(31, 31, 31))";
-}
